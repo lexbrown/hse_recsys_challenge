@@ -1,0 +1,12 @@
+{
+  "unit_tests_passed": 6,
+  "notebook_code_cells_executed": 5,
+  "baseline_predictions_unchanged": true,
+  "legacy_checkpoint_predictions_unchanged_on_cpu_fixture": true,
+  "full_training_export_flow_tested_with_reduced_cpu_fixture": true,
+  "saved_validation_checkpoint_metric_reproduced": true,
+  "checkpoint_import_and_documentation_update_tested": true,
+  "full_gpu_training_of_refactored_project_performed": false,
+  "real_sasrec_weights_included": false,
+  "note": "Smoke fixtures and their scores are excluded from the repository archive."
+}

@@ -1,0 +1,16 @@
+# Python 3.12 is the tested local environment. Keep the preinstalled CUDA torch on Kaggle.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+matplotlib==3.10.8
+threadpoolctl==3.6.0
+replay-rec[torch]==0.22.0
+lightning==2.5.6
+torchmetrics==1.8.2
+pytorch-optimizer==3.11.0
+polars==1.44.2
+scikit-learn==1.8.0
+pyarrow==23.0.1
+torch>=2.5,<3
+ipykernel>=6,<8
+nbformat>=5.10,<6

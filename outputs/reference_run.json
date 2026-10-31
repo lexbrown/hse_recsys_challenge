@@ -1,0 +1,40 @@
+{
+  "source": "Earlier executed EASE notebook run",
+  "data_hashes": {
+    "events.csv": "b1487abf63fa55d0d8b594e28ff9994e1a81dca2f75968417830d0f9e4c74cb1",
+    "user_features.csv": "21c7cd527de33835d17822bcd7da5903087a8799320d9ca05ed72affff65edfa",
+    "item_features.csv": "710686a549aec2a01333ad50ba89927f68ec96d5be0d35f7d0a94852b3a2fa36",
+    "submission_sample.csv": "e455c1e78514eb40b9cabec08060195acde727b6b5602bfe6f3f9d145991b623"
+  },
+  "config": {
+    "seed": 42,
+    "k": 10,
+    "validation_fraction": 0.2,
+    "train_min_rating": null,
+    "target_min_rating": null,
+    "exclude_seen": true,
+    "knn_neighbors": 100,
+    "knn_shrinkage": 10.0,
+    "batch_size": 256,
+    "ease_regularization_grid": [
+      100.0,
+      300.0,
+      1000.0,
+      3000.0,
+      10000.0
+    ],
+    "blas_threads": 4
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "threadpoolctl": "3.6.0"
+  },
+  "selected_model": "ease_l2_1000",
+  "submission_sha256": "86e2d59bed66d2963c5b07435366e12cea5cf99bea75693a9304e87dabc1a33a",
+  "confirmed_kaggle_score": 0.086,
+  "sasrec_full_checkpoint_included": false
+}

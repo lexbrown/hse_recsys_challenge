@@ -1,0 +1,8 @@
+model,parameters_json,local_recall_at_10,evaluated_users,elapsed_seconds
+ease_l2_1000,"{""regularization"": 1000.0}",0.06503774534929092,6040,4.322
+ease_l2_3000,"{""regularization"": 3000.0}",0.0648839027945927,6040,4.258
+ease_l2_300,"{""regularization"": 300.0}",0.0633355384383855,6040,4.334
+ease_l2_10000,"{""regularization"": 10000.0}",0.06229886363689561,6040,4.372
+ease_l2_100,"{""regularization"": 100.0}",0.06125842608765538,6040,4.45
+itemknn,"{""neighbors"": 100, ""shrinkage"": 10.0}",0.05576749573633365,6040,2.858
+popularity,{},0.036166606651316414,6040,1.288
