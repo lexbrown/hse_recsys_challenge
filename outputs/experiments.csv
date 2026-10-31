@@ -1,0 +1,9 @@
+model,hypothesis,local_recall_at_10,parameters,elapsed_seconds
+sasrec,H3: порядок истории улучшает рекомендации; финальная модель,0.1415463209465412,"{""batch_size"": 128, ""best_epoch"": 48, ""dropout"": 0.2, ""embedding_dim"": 64, ""gradient_clip"": 1.0, ""learning_rate"": 0.001, ""max_epochs"": 50, ""max_sequence_length"": 100, ""mixed_precision"": true, ""num_blocks"": 2, ""num_heads"": 2, ""num_workers"": 0, ""patience"": 8, ""prediction_batch_size"": 256, ""require_cuda"": true, ""weight_decay"": 1e-05, ""window_stride"": 50}",309.197
+ease_l2_1000,H2: EASE с подбором регуляризации,0.06503774534929092,"{""regularization"": 1000.0}",6.479
+ease_l2_3000,H2: EASE с подбором регуляризации,0.0648839027945927,"{""regularization"": 3000.0}",6.395
+ease_l2_300,H2: EASE с подбором регуляризации,0.0633355384383855,"{""regularization"": 300.0}",6.527
+ease_l2_10000,H2: EASE с подбором регуляризации,0.06229886363689561,"{""regularization"": 10000.0}",6.334
+ease_l2_100,H2: EASE с подбором регуляризации,0.06125842608765538,"{""regularization"": 100.0}",6.439
+itemknn,H1: сходство фильмов улучшает персонализацию,0.05576749573633365,"{""neighbors"": 100, ""shrinkage"": 10.0}",3.938
+popularity,H0: популярность как точка отсчёта,0.036166606651316414,{},1.717
